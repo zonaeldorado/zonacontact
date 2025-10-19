@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hubungi Zona</title>
+  <title>Submit Email</title>
   <style>
     :root {
-      --bg: #0e0e10;
-      --card-bg: #18181b;
+      --bg: #0d0d10;
+      --card-bg: #232329;
       --primary: #4f46e5;
       --primary-hover: #6366f1;
-      --border: #2a2a2d;
+      --border: #2f2f35;
       --text: #e5e7eb;
       --text-light: #a1a1aa;
     }
@@ -34,7 +34,7 @@
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 1rem;
-      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
       padding: 2rem;
       width: 100%;
       max-width: 420px;
@@ -63,7 +63,7 @@
       padding: 0.75rem 1rem;
       border-radius: 0.5rem;
       border: 1px solid var(--border);
-      background: #111;
+      background: #18181d;
       color: var(--text);
       transition: all 0.25s ease;
       width: 100%;
@@ -73,6 +73,7 @@
       outline: none;
       border-color: var(--primary);
       box-shadow: 0 0 8px rgba(79, 70, 229, 0.5);
+      transform: scale(1.01);
     }
 
     textarea {
@@ -101,13 +102,13 @@
 </head>
 <body>
   <div class="card">
-    <h1>Hubungi Zona</h1>
-    <p>Kirim pesanmu langsung ke email editor</p>
+    <h1>Submit For Zona</h1>
+    <p>Send Your Message To Me</p>
     <form action="mailto:zonaeldorado@gmail.com" method="post" enctype="text/plain">
       <input type="text" name="name" placeholder="Nama Kamu" required />
       <input type="email" name="email" placeholder="Email Kamu" required />
       <textarea name="message" placeholder="Tulis pesan kamu..." required></textarea>
-      <button type="submit">Kirim Pesan</button>
+      <button type="submit">Send Message</button>
     </form>
   </div>
 </body>
